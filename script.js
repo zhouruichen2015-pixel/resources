@@ -130,11 +130,11 @@ const softwareData = [
         name: "NSudo",
         icon: "⚡",
         category: "系统工具",
-        filename: "NSudo 9.0",
-        size: "15 MB",
+        filename: "NSudoLG.exe",
+        size: "0.17 MB",
         date: "2024-02-28",
         description: "系统权限管理工具，一键获取管理员权限，轻松运行需要高权限的程序系统优化必备",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/NSudo-9.0.zip",
+        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/NSudoLG.exe",
         rating: 4.9,
         downloads: 5430,
         features: ["权限管理", "一键提权", "轻量安全"]
@@ -166,150 +166,79 @@ const softwareData = [
         rating: 4.7,
         downloads: 4120,
         features: ["批量处理", "转场特效", "效率提升"]
+    },
+    {
+        id: 13,
+        name: "4K Video Downloader+",
+        icon: "🎬",
+        category: "多媒体",
+        filename: "4kvideodownloaderplus_26.0.3_x64_online.exe",
+        size: "0.81 MB",
+        date: "2025-06-01",
+        description: "强大的在线视频下载工具，支持 YouTube、B站、抖音等主流平台，4K/8K高清下载，批量处理",
+        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/4kvideodownloaderplus_26.0.3_x64_online.exe",
+        rating: 4.7,
+        downloads: 6800,
+        features: ["多平台支持", "4K/8K高清", "批量下载"]
+    },
+    {
+        id: 14,
+        name: "Clash Verge",
+        icon: "🛡️",
+        category: "网络工具",
+        filename: "Clash.Verge_2.4.5_x64-setup.exe",
+        size: "36.36 MB",
+        date: "2025-05-15",
+        description: "基于 Clash 内核的代理客户端，支持多规则管理、订阅导入、实时流量监控，网络加速利器",
+        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Clash.Verge_2.4.5_x64-setup.exe",
+        rating: 4.6,
+        downloads: 9200,
+        features: ["规则管理", "订阅导入", "实时监控"]
+    },
+    {
+        id: 15,
+        name: "Dev-C++",
+        icon: "💻",
+        category: "开发工具",
+        filename: "Dev-Cpp.6.7.5.MinGW-w64.X86_64.GCC.10.3.Setup.exe",
+        size: "55.98 MB",
+        date: "2025-04-10",
+        description: "轻量级 C/C++ 集成开发环境，内置 MinGW-w64 编译器，支持代码高亮和调试，编程入门首选",
+        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Dev-Cpp.6.7.5.MinGW-w64.X86_64.GCC.10.3.Setup.exe",
+        rating: 4.5,
+        downloads: 4500,
+        features: ["C/C++ IDE", "内置编译器", "轻量免费"]
+    },
+    {
+        id: 16,
+        name: "Everything",
+        icon: "🔍",
+        category: "系统工具",
+        filename: "Everything-1.4.1.1032.x86-Setup.exe",
+        size: "1.81 MB",
+        date: "2025-03-20",
+        description: "秒级文件搜索神器，基于 NTFS USN 日志实现瞬时索引，百万文件毫秒级定位",
+        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Everything-1.4.1.1032.x86-Setup.exe",
+        rating: 4.9,
+        downloads: 15600,
+        features: ["瞬时搜索", "超轻量", "正则支持"]
+    },
+    {
+        id: 17,
+        name: "钉钉",
+        icon: "📱",
+        category: "社交工具",
+        filename: "dingtalk_downloader.exe",
+        size: "2.69 MB",
+        date: "2025-04-05",
+        description: "阿里巴巴旗下企业协作平台，视频会议、文档协同、考勤打卡一站式办公",
+        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/dingtalk_downloader.exe",
+        rating: 4.4,
+        downloads: 11200,
+        features: ["企业办公", "视频会议", "协同工作"]
     }
-,
-    {
-        id: 13,
-        name: "4K Video Downloader+",
-        icon: "🎬",
-        category: "多媒体",
-        filename: "4kvideodownloaderplus_26.0.3_x64_online.exe",
-        size: "36 MB",
-        date: "2025-06-01",
-        description: "强大的在线视频下载工具，支持 YouTube、B站、抖音等主流平台，4K/8K高清下载，批量处理",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/4kvideodownloaderplus_26.0.3_x64_online.exe",
-        rating: 4.7,
-        downloads: 6800,
-        features: ["多平台支持", "4K/8K高清", "批量下载"]
-    },
-    {
-        id: 14,
-        name: "Clash Verge",
-        icon: "🛡️",
-        category: "网络工具",
-        filename: "Clash.Verge_2.4.5_x64-setup.exe",
-        size: "36 MB",
-        date: "2025-05-15",
-        description: "基于 Clash 内核的代理客户端，支持多规则管理、订阅导入、实时流量监控，网络加速利器",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Clash.Verge_2.4.5_x64-setup.exe",
-        rating: 4.6,
-        downloads: 9200,
-        features: ["规则管理", "订阅导入", "实时监控"]
-    },
-    {
-        id: 15,
-        name: "Dev-C++",
-        icon: "💻",
-        category: "开发工具",
-        filename: "Dev-Cpp.6.7.5.MinGW-w64.X86_64.GCC.10.3.Setup.exe",
-        size: "55 MB",
-        date: "2025-04-10",
-        description: "轻量级 C/C++ 集成开发环境，内置 MinGW-w64 编译器，支持代码高亮和调试，编程入门首选",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Dev-Cpp.6.7.5.MinGW-w64.X86_64.GCC.10.3.Setup.exe",
-        rating: 4.5,
-        downloads: 4500,
-        features: ["C/C++ IDE", "内置编译器", "轻量免费"]
-    },
-    {
-        id: 16,
-        name: "Everything",
-        icon: "🔍",
-        category: "系统工具",
-        filename: "Everything-1.4.1.1032.x86-Setup.exe",
-        size: "1.7 MB",
-        date: "2025-03-20",
-        description: "秒级文件搜索神器，基于 NTFS USN 日志实现瞬时索引，百万文件毫秒级定位",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Everything-1.4.1.1032.x86-Setup.exe",
-        rating: 4.9,
-        downloads: 15600,
-        features: ["瞬时搜索", "超轻量", "正则支持"]
-    },
-    {
-        id: 17,
-        name: "钉钉",
-        icon: "📱",
-        category: "社交工具",
-        filename: "dingtalk_downloader.exe",
-        size: "2 MB",
-        date: "2025-04-05",
-        description: "阿里巴巴旗下企业协作平台，视频会议、文档协同、考勤打卡一站式办公",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/dingtalk_downloader.exe",
-        rating: 4.4,
-        downloads: 11200,
-        features: ["企业办公", "视频会议", "协同工作"]
-    }];
+];
 
-let filteredSoftware = [...softwareData,
-    {
-        id: 13,
-        name: "4K Video Downloader+",
-        icon: "🎬",
-        category: "多媒体",
-        filename: "4kvideodownloaderplus_26.0.3_x64_online.exe",
-        size: "36 MB",
-        date: "2025-06-01",
-        description: "强大的在线视频下载工具，支持 YouTube、B站、抖音等主流平台，4K/8K高清下载，批量处理",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/4kvideodownloaderplus_26.0.3_x64_online.exe",
-        rating: 4.7,
-        downloads: 6800,
-        features: ["多平台支持", "4K/8K高清", "批量下载"]
-    },
-    {
-        id: 14,
-        name: "Clash Verge",
-        icon: "🛡️",
-        category: "网络工具",
-        filename: "Clash.Verge_2.4.5_x64-setup.exe",
-        size: "36 MB",
-        date: "2025-05-15",
-        description: "基于 Clash 内核的代理客户端，支持多规则管理、订阅导入、实时流量监控，网络加速利器",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Clash.Verge_2.4.5_x64-setup.exe",
-        rating: 4.6,
-        downloads: 9200,
-        features: ["规则管理", "订阅导入", "实时监控"]
-    },
-    {
-        id: 15,
-        name: "Dev-C++",
-        icon: "💻",
-        category: "开发工具",
-        filename: "Dev-Cpp.6.7.5.MinGW-w64.X86_64.GCC.10.3.Setup.exe",
-        size: "55 MB",
-        date: "2025-04-10",
-        description: "轻量级 C/C++ 集成开发环境，内置 MinGW-w64 编译器，支持代码高亮和调试，编程入门首选",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Dev-Cpp.6.7.5.MinGW-w64.X86_64.GCC.10.3.Setup.exe",
-        rating: 4.5,
-        downloads: 4500,
-        features: ["C/C++ IDE", "内置编译器", "轻量免费"]
-    },
-    {
-        id: 16,
-        name: "Everything",
-        icon: "🔍",
-        category: "系统工具",
-        filename: "Everything-1.4.1.1032.x86-Setup.exe",
-        size: "1.7 MB",
-        date: "2025-03-20",
-        description: "秒级文件搜索神器，基于 NTFS USN 日志实现瞬时索引，百万文件毫秒级定位",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Everything-1.4.1.1032.x86-Setup.exe",
-        rating: 4.9,
-        downloads: 15600,
-        features: ["瞬时搜索", "超轻量", "正则支持"]
-    },
-    {
-        id: 17,
-        name: "钉钉",
-        icon: "📱",
-        category: "社交工具",
-        filename: "dingtalk_downloader.exe",
-        size: "2 MB",
-        date: "2025-04-05",
-        description: "阿里巴巴旗下企业协作平台，视频会议、文档协同、考勤打卡一站式办公",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/dingtalk_downloader.exe",
-        rating: 4.4,
-        downloads: 11200,
-        features: ["企业办公", "视频会议", "协同工作"]
-    }];
 let currentCategory = 'all';
 let currentSort = 'downloads';
 let currentView = 'grid';
@@ -347,7 +276,7 @@ function updateStatistics() {
     const totalSoftware = softwareData.length;
     const totalDownloads = softwareData.reduce((sum, s) => sum + s.downloads, 0);
     const avgRating = (softwareData.reduce((sum, s) => sum + s.rating, 0) / totalSoftware).toFixed(1);
-    
+
     animateNumber('total-software', totalSoftware);
     animateNumber('total-downloads', totalDownloads);
     animateNumber('avg-rating', parseFloat(avgRating), true);
@@ -359,7 +288,7 @@ function animateNumber(elementId, target, isDecimal = false) {
     const steps = 60;
     const increment = target / steps;
     let current = 0;
-    
+
     const timer = setInterval(() => {
         current += increment;
         if (current >= target) {
@@ -389,79 +318,9 @@ function parseFileSize(sizeStr) {
 }
 
 function renderCategoryFilters() {
-    const categories = [...new Set(softwareData.map(s => s.category)),
-    {
-        id: 13,
-        name: "4K Video Downloader+",
-        icon: "🎬",
-        category: "多媒体",
-        filename: "4kvideodownloaderplus_26.0.3_x64_online.exe",
-        size: "36 MB",
-        date: "2025-06-01",
-        description: "强大的在线视频下载工具，支持 YouTube、B站、抖音等主流平台，4K/8K高清下载，批量处理",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/4kvideodownloaderplus_26.0.3_x64_online.exe",
-        rating: 4.7,
-        downloads: 6800,
-        features: ["多平台支持", "4K/8K高清", "批量下载"]
-    },
-    {
-        id: 14,
-        name: "Clash Verge",
-        icon: "🛡️",
-        category: "网络工具",
-        filename: "Clash.Verge_2.4.5_x64-setup.exe",
-        size: "36 MB",
-        date: "2025-05-15",
-        description: "基于 Clash 内核的代理客户端，支持多规则管理、订阅导入、实时流量监控，网络加速利器",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Clash.Verge_2.4.5_x64-setup.exe",
-        rating: 4.6,
-        downloads: 9200,
-        features: ["规则管理", "订阅导入", "实时监控"]
-    },
-    {
-        id: 15,
-        name: "Dev-C++",
-        icon: "💻",
-        category: "开发工具",
-        filename: "Dev-Cpp.6.7.5.MinGW-w64.X86_64.GCC.10.3.Setup.exe",
-        size: "55 MB",
-        date: "2025-04-10",
-        description: "轻量级 C/C++ 集成开发环境，内置 MinGW-w64 编译器，支持代码高亮和调试，编程入门首选",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Dev-Cpp.6.7.5.MinGW-w64.X86_64.GCC.10.3.Setup.exe",
-        rating: 4.5,
-        downloads: 4500,
-        features: ["C/C++ IDE", "内置编译器", "轻量免费"]
-    },
-    {
-        id: 16,
-        name: "Everything",
-        icon: "🔍",
-        category: "系统工具",
-        filename: "Everything-1.4.1.1032.x86-Setup.exe",
-        size: "1.7 MB",
-        date: "2025-03-20",
-        description: "秒级文件搜索神器，基于 NTFS USN 日志实现瞬时索引，百万文件毫秒级定位",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/Everything-1.4.1.1032.x86-Setup.exe",
-        rating: 4.9,
-        downloads: 15600,
-        features: ["瞬时搜索", "超轻量", "正则支持"]
-    },
-    {
-        id: 17,
-        name: "钉钉",
-        icon: "📱",
-        category: "社交工具",
-        filename: "dingtalk_downloader.exe",
-        size: "2 MB",
-        date: "2025-04-05",
-        description: "阿里巴巴旗下企业协作平台，视频会议、文档协同、考勤打卡一站式办公",
-        downloadUrl: "https://github.com/zhouruichen2015-pixel/resources/releases/download/1/dingtalk_downloader.exe",
-        rating: 4.4,
-        downloads: 11200,
-        features: ["企业办公", "视频会议", "协同工作"]
-    }];
+    const categories = [...new Set(softwareData.map(s => s.category))];
     const chipsContainer = document.getElementById('category-chips');
-    
+
     chipsContainer.innerHTML = `
         <button class="filter-chip active" onclick="filterByCategory('all')">全部</button>
         ${categories.map(cat => `
@@ -478,7 +337,7 @@ function renderCategories() {
         }
         categories[s.category].count++;
     });
-    
+
     const categoriesGrid = document.getElementById('categories-grid');
     const categoryIcons = {
         '压缩工具': '📦',
@@ -487,9 +346,11 @@ function renderCategories() {
         '下载工具': '⬇️',
         '社交工具': '💬',
         '系统工具': '💾',
-        'AI工具': '🤖'
+        'AI工具': '🤖',
+        '网络工具': '🛡️',
+        '开发工具': '💻'
     };
-    
+
     categoriesGrid.innerHTML = Object.entries(categories).map(([name, data]) => `
         <div class="category-card" onclick="filterByCategory('${name}')">
             <div class="category-icon">${categoryIcons[name] || '📁'}</div>
@@ -501,14 +362,14 @@ function renderCategories() {
 
 function filterByCategory(category) {
     currentCategory = category;
-    
+
     document.querySelectorAll('.filter-chip').forEach(chip => {
         chip.classList.remove('active');
         if (chip.textContent === (category === 'all' ? '全部' : category)) {
             chip.classList.add('active');
         }
     });
-    
+
     applyFilters();
     showToast('success', '筛选成功', `已显示${category === 'all' ? '全部' : category}的软件`);
 }
@@ -530,18 +391,20 @@ function getSortLabel(sort) {
     return labels[sort] || '默认';
 }
 
+let filteredSoftware = [];
+
 function applyFilters() {
     const searchTerm = document.getElementById('main-search').value.toLowerCase();
-    
+
     filteredSoftware = softwareData.filter(software => {
-        const matchesSearch = !searchTerm || 
+        const matchesSearch = !searchTerm ||
             software.name.toLowerCase().includes(searchTerm) ||
             software.description.toLowerCase().includes(searchTerm) ||
             software.category.toLowerCase().includes(searchTerm);
         const matchesCategory = currentCategory === 'all' || software.category === currentCategory;
         return matchesSearch && matchesCategory;
     });
-    
+
     sortFilteredSoftware();
     renderSoftware();
 }
@@ -565,7 +428,7 @@ function sortFilteredSoftware() {
 
 function renderSoftware() {
     const grid = document.getElementById('software-grid');
-    
+
     if (filteredSoftware.length === 0) {
         grid.innerHTML = `
             <div style="grid-column: 1 / -1; text-align: center; padding: 4rem;">
@@ -576,7 +439,7 @@ function renderSoftware() {
         `;
         return;
     }
-    
+
     grid.innerHTML = filteredSoftware.map((software, index) => `
         <div class="software-card" onclick="showDetailModal(${software.id})" style="animation-delay: ${index * 0.05}s;">
             <div class="card-header">
@@ -618,18 +481,18 @@ function renderSoftware() {
 function setupEventListeners() {
     const searchInput = document.getElementById('main-search');
     let debounceTimer;
-    
+
     searchInput.addEventListener('input', () => {
         clearTimeout(debounceTimer);
         debounceTimer = setTimeout(applyFilters, 300);
     });
-    
+
     searchInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
             performSearch();
         }
     });
-    
+
     window.addEventListener('scroll', () => {
         const navbar = document.querySelector('.navbar');
         if (window.scrollY > 50) {
@@ -655,7 +518,7 @@ function setView(view) {
     currentView = view;
     document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
-    
+
     const grid = document.getElementById('software-grid');
     if (view === 'list') {
         grid.style.gridTemplateColumns = '1fr';
@@ -667,10 +530,10 @@ function setView(view) {
 function showDetailModal(id) {
     const software = softwareData.find(s => s.id === id);
     if (!software) return;
-    
+
     const modal = document.getElementById('detail-modal');
     const modalContent = document.getElementById('modal-content');
-    
+
     modalContent.innerHTML = `
         <div style="text-align: center; margin-bottom: 2rem;">
             <div style="font-size: 6rem; margin-bottom: 1rem;">${software.icon}</div>
@@ -679,7 +542,7 @@ function showDetailModal(id) {
                 ${software.category}
             </span>
         </div>
-        
+
         <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem;">
             <div style="text-align: center; padding: 1rem; background: var(--bg-primary); border-radius: 0.75rem;">
                 <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📥</div>
@@ -702,12 +565,12 @@ function showDetailModal(id) {
                 <div style="font-size: 0.85rem; color: var(--text-secondary);">更新日期</div>
             </div>
         </div>
-        
+
         <div style="margin-bottom: 2rem;">
             <h3 style="color: var(--text-primary); margin-bottom: 1rem;">📝 软件介绍</h3>
             <p style="color: var(--text-secondary); line-height: 1.8;">${software.description}</p>
         </div>
-        
+
         <div style="margin-bottom: 2rem;">
             <h3 style="color: var(--text-primary); margin-bottom: 1rem;">✨ 核心特性</h3>
             <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
@@ -718,7 +581,7 @@ function showDetailModal(id) {
                 `).join('')}
             </div>
         </div>
-        
+
         <div style="margin-bottom: 2rem;">
             <h3 style="color: var(--text-primary); margin-bottom: 1rem;">📁 文件信息</h3>
             <div style="background: var(--bg-primary); padding: 1rem; border-radius: 0.75rem;">
@@ -727,13 +590,13 @@ function showDetailModal(id) {
                 </p>
             </div>
         </div>
-        
+
         <button class="btn btn-primary" onclick="downloadSoftware(${software.id}); closeModal();" style="width: 100%; padding: 1rem; font-size: 1.1rem;">
             <span>⬇️</span>
             <span>立即下载 ${software.name}</span>
         </button>
     `;
-    
+
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
 }
@@ -746,9 +609,9 @@ function closeModal() {
 function downloadSoftware(id) {
     const software = softwareData.find(s => s.id === id);
     if (!software) return;
-    
+
     showToast('info', '准备下载', `正在下载 ${software.name}...`);
-    
+
     setTimeout(() => {
         const link = document.createElement('a');
         link.href = software.downloadUrl;
@@ -756,7 +619,7 @@ function downloadSoftware(id) {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-        
+
         showToast('success', '下载开始', `${software.name} 下载已启动`);
     }, 500);
 }
@@ -769,7 +632,7 @@ function showToast(type, title, message) {
         'warning': '⚠️',
         'info': 'ℹ️'
     };
-    
+
     const toast = document.createElement('div');
     toast.className = `toast ${type}`;
     toast.innerHTML = `
@@ -779,9 +642,9 @@ function showToast(type, title, message) {
             <div class="toast-message">${message}</div>
         </div>
     `;
-    
+
     container.appendChild(toast);
-    
+
     setTimeout(() => {
         toast.style.animation = 'slideInRight 0.3s ease reverse';
         setTimeout(() => {
@@ -795,7 +658,7 @@ function setupAnimations() {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
     };
-    
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -804,7 +667,7 @@ function setupAnimations() {
             }
         });
     }, observerOptions);
-    
+
     document.querySelectorAll('.software-card, .category-card').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(20px)';
